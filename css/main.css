@@ -3,7 +3,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul, footer ul, p, h1, h2, h3, h4, h5, h6 {
     font-family:'Ubuntu Mono';
     padding: 0px;
     list-style: none;
