@@ -9,23 +9,23 @@
 body {
     margin: 60px auto;
     width: 80%;
-}
-nav ul, footer ul, p, {
     font-family:'InputMono', 'Ubuntu Mono';
+    font-size:110%;
+}
+
+nav ul, footer ul, p, {
+    float: right;
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 p {
-    font-family:'InputMono', 'Ubuntu Mono';
     padding: 10px;
     list-style: none;
     line-height:135%;
-    font-size: 18px;
     max-width: 50em;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:'InputMono', 'Ubuntu Mono';
     padding: 0px;
     list-style: none;
 }
