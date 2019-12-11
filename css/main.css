@@ -20,6 +20,8 @@ p {
     font-family:'InputMono', 'Ubuntu Mono';
     padding: 10px;
     list-style: none;
+    line-height:135%;
+    font-size: 18px;
     max-width: 50em;
 }
 h1, h2, h3, h4, h5, h6 {
