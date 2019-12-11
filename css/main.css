@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+@font-face {
+    font-family: "InputMono";
+    src: url("fonts/InputMono/InputMono/InputMono-Regular.ttf");
+}
+
+
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
-nav ul, footer ul, p, h1, h2, h3, h4, h5, h6 {
-    font-family:'Ubuntu Mono';
+nav ul, footer ul, p, {
+    font-family:'InputMono', 'Ubuntu Mono';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+}
+p {
+    font-family:'InputMono', 'Ubuntu Mono';
+    padding: 10px;
+    list-style: none;
+    max-width: 50em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'InputMono', 'Ubuntu Mono';
+    padding: 0px;
+    list-style: none;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -17,4 +35,4 @@ a {
     text-decoration: none;
     color: #999;
 }
-a:hover {
+a:hover {}
