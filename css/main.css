@@ -17,7 +17,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    display: inline;
+    display: block;
 }
 p {
     padding: 10px;
