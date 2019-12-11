@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 
 @font-face {
-    font-family: "InputMono";
-    src: url("/fonts/InputSans/InputSans/InputSans-Regular.ttf");
+    font-family: "InputSans";
+    src: url("fonts/InputSans/InputSans/InputSans-Regular.ttf");
 }
 
 
