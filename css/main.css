@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: "InputSans";
-    src: url("fonts/InputSans/InputSans/InputSans-Regular.ttf");
+    src: url("/fonts/InputSans/InputSans/InputSans-Regular.ttf");
 }
 
 
 body {
     margin: 60px auto;
     width: 80%;
-    font-family:'InputMono', 'Ubuntu Mono';
+    font-family:'InputSans', 'Ubuntu Mono';
     font-size:110%;
 }
 
