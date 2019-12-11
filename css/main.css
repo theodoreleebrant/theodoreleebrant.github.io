@@ -19,6 +19,9 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+.container {
+    padding-top: 50px;
+}
 p {
     padding: 10px;
     line-height:135%;
