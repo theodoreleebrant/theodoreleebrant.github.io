@@ -5,6 +5,10 @@
     src: url("fonts/InputSans/InputSans/InputSans-Regular.ttf");
 }
 
+@font-face {
+    font-family: "InputMono";
+    src: url("fonts/InputMono/InputMono/InputMono-Regular.ttf");
+}
 
 body {
     margin: 60px auto;
@@ -50,4 +54,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+code {
+    font-family: 'InputMono', 'Ubuntu Mono';
 }
