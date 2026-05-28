@@ -17,7 +17,7 @@ Required packages:
 
 Steps to connect:
 1. Install the required packages
-2. Check that the printers are available: `smbclient -L //nts27b.res.nus.edu.sg -U <domain>/<NUSNET>` -- replace domain (nusstu/nusstf) and NUSNET ID accordingly
+2. Check that the printers are available: ```smbclient -L //nts27b.res.nus.edu.sg -U <domain>/<NUSNET>``` -- replace domain (nusstu/nusstf) and NUSNET ID accordingly
 3. Make sure the CUPS service is running, and go to http://localhost:631/ for the CUPS dashboard
 4. Navigate to Administration > Add Printer > Windows Printer via SAMBA
 5. Use the following for the URI: `smb://<username>:<password>@<domain>/nts27b.res.nus.edu.sg/<printer-name>`
