@@ -1,3 +1,7 @@
+---
+title: NUS SoC Printer setup for Ubuntu (or Linux in general, I suppose)
+---
+
 As part of the pain points of reinstalling the entire OS, I had the pleasure to have to set up the printers on my laptop again. Fun!
 
 NUS School of Computing does give me some pages of free printing (thanks) but what use would it be if you can't print? There is a [guide in SoC DocHub](https://dochub.comp.nus.edu.sg/cf/guides/printing/linux/smbclient) (VPN or on-campus access required), but the Linux section just mentions "oh, print using SAMBA", which is kinda... eh. Furthermore, the info is *ever so slightly* outdated (as of May 28, 2026); so here is how I set up mine to avoid 45 minutes of Google-searching pain that I had to do fighting SAMBA on Ubuntu 26.04.
