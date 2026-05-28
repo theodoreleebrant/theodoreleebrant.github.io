@@ -21,6 +21,7 @@ Steps to connect:
 7. Test print! It should be configured by now.
 
 Here is a list of the public printers as of the time of writing:
+
 | Name of Print Queues            | Location of Printer                        | Model of Printer                          | Banner  |
 |---------------------------------|--------------------------------------------|-------------------------------------------|---------|
 | psc008   psc008-sx   psc008-nb  | COM1, Basement (outside Programming Lab 3) | LEXMARK MS821DN, A4 Postscript III        | Yes     |
