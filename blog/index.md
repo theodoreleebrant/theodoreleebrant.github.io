@@ -2,6 +2,7 @@
 layout: default
 title: The Blag
 ---
+```
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
