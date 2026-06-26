@@ -7,12 +7,11 @@ Update (26 June 2026): I have had the (dis)pleasure of setting up two more perso
 ```
 sudo -v
 sudo apt update
-sudo apt install -y ca-certificates curl wget gnupg software-properties-common
 sudo add-apt-repository -y -n multiverse && sudo add-apt-repository -y -n ppa:linrunner/tlp
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo tee /etc/apt/keyrings/sublimehq-pub.asc > /dev/null
 echo -e 'Types: deb\nURIs: https://download.sublimetext.com/\nSuites: apt/stable/\nSigned-By: /etc/apt/keyrings/sublimehq-pub.asc' | sudo tee /etc/apt/sources.list.d/sublime-text.sources > /dev/null
 sudo apt update
-sudo apt install -y vim curl wget git htop tmux tree jq unzip zip rsync net-tools dnsutils traceroute tcpdump nmap lsof ripgrep ncdu btop texlive-full sublime-text sublime-merge flatpak gnome-software-plugin-flatpak gnome-shell-extension-manager smbclient python3-smbc gimp tlp
+sudo apt install -y gcc vim curl wget git htop tmux tree jq unzip zip rsync net-tools dnsutils traceroute tcpdump nmap lsof ripgrep ncdu btop texlive-full sublime-text sublime-merge flatpak gnome-software-plugin-flatpak gnome-shell-extension-manager smbclient python3-smbc gimp tlp
 sudo apt install -y ttf-mscorefonts-installer
 sudo snap install telegram-desktop slack discord spotify
 sudo snap install code --classic
