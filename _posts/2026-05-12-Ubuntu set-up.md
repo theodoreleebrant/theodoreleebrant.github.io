@@ -14,8 +14,9 @@ echo -e 'Types: deb\nURIs: https://download.sublimetext.com/\nSuites: apt/stable
 sudo apt update
 sudo apt install -y vim curl wget git htop tmux tree jq unzip zip rsync net-tools dnsutils traceroute tcpdump nmap lsof ripgrep ncdu btop texlive-full sublime-text sublime-merge flatpak gnome-software-plugin-flatpak gnome-shell-extension-manager smbclient python3-smbc gimp tlp
 sudo apt install -y ttf-mscorefonts-installer
-sudo snap install telegram-desktop slack discord spotify obsidian
+sudo snap install telegram-desktop slack discord spotify
 sudo snap install code --classic
+sudo snap install obsidian --classic
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && flatpak install -y flathub io.github.focustimerhq.FocusTimer
 curl -fsSL https://tailscale.com/install.sh | sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
